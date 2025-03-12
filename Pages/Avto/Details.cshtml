@@ -1,0 +1,55 @@
+﻿@page
+@model Odpelji_me.Pages.Avto.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Avtomobil</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.Znamka)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.Znamka)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.Model)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.Model)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.Leto)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.Leto)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.CenaNaDan)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.CenaNaDan)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.RegistrskaStevilka)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.RegistrskaStevilka)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avtomobil.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avtomobil.Status)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Avtomobil.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

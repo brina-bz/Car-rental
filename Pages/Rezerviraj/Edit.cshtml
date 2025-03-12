@@ -1,0 +1,55 @@
+﻿@page
+@model Odpelji_me.Pages.Rezerviraj.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Rezervacija</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Rezervacija.Id" />
+            <div class="form-group">
+                <label asp-for="Rezervacija.UporabnikId" class="control-label"></label>
+                <select asp-for="Rezervacija.UporabnikId" class="form-control" asp-items="ViewBag.UporabnikId"></select>
+                <span asp-validation-for="Rezervacija.UporabnikId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rezervacija.AvtomobilId" class="control-label"></label>
+                <select asp-for="Rezervacija.AvtomobilId" class="form-control" asp-items="ViewBag.AvtomobilId"></select>
+                <span asp-validation-for="Rezervacija.AvtomobilId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rezervacija.DatumZacetka" class="control-label"></label>
+                <input asp-for="Rezervacija.DatumZacetka" class="form-control" />
+                <span asp-validation-for="Rezervacija.DatumZacetka" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rezervacija.DatumKonca" class="control-label"></label>
+                <input asp-for="Rezervacija.DatumKonca" class="form-control" />
+                <span asp-validation-for="Rezervacija.DatumKonca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rezervacija.Status" class="control-label"></label>
+                <input asp-for="Rezervacija.Status" class="form-control" />
+                <span asp-validation-for="Rezervacija.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

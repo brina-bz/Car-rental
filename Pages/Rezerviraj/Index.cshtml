@@ -1,0 +1,69 @@
+﻿@page
+@model Odpelji_me.Pages.Rezerviraj.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center font-weight-bold">REZERVIRAJ</h1>
+
+    <form method="post">
+        <div class="row mt-4">
+            <!-- Pickup Location -->
+            <div class="col-md-6">
+                <label class="form-label">Lokacija prevzema</label>
+                <div class="input-group">
+                    <span class="input-group-text">📍</span>
+                    <select class="form-control" asp-for="PickupLocation">
+                        <option>Ljubljana Aerodrom</option>
+                        <option>Maribor</option>
+                        <option>Koper</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Drop-off Location -->
+            <div class="col-md-6">
+                <label class="form-label">Lokacija vračila</label>
+                <div class="input-group">
+                    <span class="input-group-text">📍</span>
+                    <select class="form-control" asp-for="DropoffLocation">
+                        <option>Ljubljana Aerodrom</option>
+                        <option>Maribor</option>
+                        <option>Koper</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <!-- Pickup Date & Time -->
+            <div class="col-md-6">
+                <label class="form-label">Čas prevzema</label>
+                <div class="input-group">
+                    <span class="input-group-text">📅</span>
+                    <input type="date" class="form-control" asp-for="PickupDate">
+                    <input type="time" class="form-control" asp-for="PickupTime">
+                </div>
+            </div>
+
+            <!-- Drop-off Date & Time -->
+            <div class="col-md-6">
+                <label class="form-label">Čas vračila</label>
+                <div class="input-group">
+                    <span class="input-group-text">📅</span>
+                    <input type="date" class="form-control" asp-for="DropoffDate">
+                    <input type="time" class="form-control" asp-for="DropoffTime">
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-dark px-5 py-2">NADALJUJ</button>
+        </div>
+    </form>
+</div>
+
+

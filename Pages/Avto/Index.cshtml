@@ -1,0 +1,60 @@
+﻿@page
+@model Odpelji_me.Pages.Avto.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+@if (User.IsInRole("Administrator"))
+{
+    <p>
+        <a asp-page="Create" class="btn btn-success">Dodaj nov avtomobil</a>
+    </p>
+}
+
+<div class="container">
+    <div class="row d-flex align-items-stretch">
+        @foreach (var item in Model.Avtomobil)
+        {
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card">
+                    <img src="~/images/carIzposoja.png" class="card-img-top" alt="@($"{item.Znamka} {item.Model}")" style="height: 200px; object-fit: cover;">
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title" style="color:#FFD43B">@item.Znamka @item.Model (@item.Leto)</h5>
+                        <p class="card-text"><strong>Registracija:</strong> @item.RegistrskaStevilka</p>
+                        <p class="card-text"><strong>Cena na dan:</strong> @item.CenaNaDan.ToString("C")</p>
+                        <p class="card-text"><strong>Status:</strong> @item.Status</p>
+
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <div class="mt-auto">
+                                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Uredi</a>
+                                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-secondary">Podrobnosti</a>
+                                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Izbriši</a>
+                            </div>
+                        }
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <form method="post">
+                                <input type="hidden" name="avtomobilId" value="@item.Id" />
+                                <button class="btn btn-warning mt-2" type="submit" asp-page-handler="Rezerviraj"
+                                        disabled="@(item.Status == "Rezerviran" || item.Status == "V uporabi")">
+                                    @(item.Status == "Na voljo" ? "Rezerviraj" : "Ni na voljo")
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            <p class="text-muted">Za rezervacijo se prijavite.</p>
+                            <a class="btn btn-info mt-2" asp-area="Identity" asp-page="/Account/Login">Prijava</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
