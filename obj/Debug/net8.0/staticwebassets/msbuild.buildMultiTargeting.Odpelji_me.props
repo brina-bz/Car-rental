@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Odpelji_me.props" />
+</Project>

@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Odpelji_me
+build_property.RootNamespace = Odpelji_me
+build_property.ProjectDir = C:\Users\bzbri\source\repos\Odpelji_me\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\bzbri\source\repos\Odpelji_me
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Avto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZ0b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Avto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZ0b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Avto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZ0b1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Avto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZ0b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Avto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZ0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Ocena/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NlbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Ocena/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NlbmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Ocena/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NlbmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Ocena/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NlbmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Ocena/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2NlbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Racun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFjdW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Racun/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFjdW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Racun/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFjdW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Racun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFjdW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Racun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFjdW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Rezerviraj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2aXJhalxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Rezerviraj/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2aXJhalxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Rezerviraj/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2aXJhalxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Rezerviraj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2aXJhalxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Rezerviraj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2aXJhalxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bzbri/source/repos/Odpelji_me/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uug1rwldwl
