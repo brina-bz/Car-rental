@@ -1,0 +1,128 @@
+html {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+a{
+    color:#ffd800;
+}
+
+a:hover{
+    color:white;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #161515;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffd800;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container-form {
+  border-radius: 5px;
+  background-color: #ffd800;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.row {
+  background-color:  #161515;
+  padding: 15px;
+  border:none;
+}
+
+.card {
+    
+    background-color: #161515;
+}
+
+
+h1, h2 {
+    color:#ffd800;
+}
+
+.btn-primary {
+   background-color: #ffd800;
+   color:black;
+}
+
+.btn-primary:hover{
+    background-color:white;
+    color:black;
+}
+
+.form-label{
+    color:white;
+}
+
+h3,p{
+    color:white;
+}
